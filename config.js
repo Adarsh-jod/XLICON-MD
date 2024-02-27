@@ -3,16 +3,16 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || "923184070915"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || "916238591295"  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://salmanahmad:s4salmanyt@cluster0.szcj2eo.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'xheikhsalman4422@gmail.com'
-global.github = 'https://github.com/salmanytofficial/XLICON-MD'
+global.email = 'adarshangel2006@gmail.com'
+global.github = 'https://github.com/Adarsh-jod/XLICON-MD'
 global.location = 'Lahore Pak'
-global.gurl = 'https://instagram.com/itz_shaikho/' // add your username
-global.sudo = process.env.SUDO || '923184070915' 
-global.devs = '923184070915';
-global.website = 'https://github.com/salmanytofficial/XLICON-MD' //wa.me/+91000000000000
+global.gurl = 'https://instagram.com/an.ideal_/' // add your username
+global.sudo = process.env.SUDO || '916238591295' 
+global.devs = '923184070915';'916238591295'
+global.website = 'https://github.com/salmanytofficial/XLICON-MD' //wa.me/+916238591295
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3c341828d86ee7a89c73f.jpg'
 module.exports = {
   sessionName:  process.env.SESSION_ID ||  " ",  //PUT Session Id Here, 
@@ -20,7 +20,7 @@ module.exports = {
   packname:  process.env.PACK_NAME || '',
    
   botname:   process.env.BOT_NAME === undefined ? "Xlicon-Md" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'salmanytofficial' : process.env.OWNER_NAME,  
+  ownername: process.env.OWNER_NAME === undefined ? 'adarsh!' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
